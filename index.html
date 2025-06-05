@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodSound 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MoodSound 🎧</h1>
+    <p class="subtitle">Tap your mood, feel the vibe ✨</p>
+
+    <div class="buttons">
+      <button onclick="playMood('happy')">😊 Happy</button>
+      <button onclick="playMood('sad')">😢 Sad</button>
+      <button onclick="playMood('angry')">😡 Angry</button>
+      <button onclick="playMood('romantic')">❤ Romantic</button>
+      <button onclick="playMood('focus')">🎧 Focus</button>
+    </div>
+
+    <div class="quote" id="quote"></div>
+
+    <div class="player" id="player">
+      <iframe id="ytplayer" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
